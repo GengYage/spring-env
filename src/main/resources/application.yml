@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/yage
+    password: *******
+    username: root
+  main:
+    allow-circular-references: true
+server:
+  servlet:
+    context-path: /api/rest
+  port: 8080
